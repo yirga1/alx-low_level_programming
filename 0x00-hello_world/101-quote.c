@@ -1,12 +1,13 @@
-#include <stdio.h>
+#include <uninstd.h>
 /**
- * main - Prints out a string to stdout.
- * Return: 0 if success
+ * main - Entry point
+ * Return: Always 1 (Success)
  */
 int main(void)
 {
-write(1, "and that piece of art is useful\" - Dora Korpar, 2015-10-19" 14);
-	return (0);
+char str1[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
+	write(2,str1,59);
+	return (1);
 	
 }
 
