@@ -1,11 +1,10 @@
 #include <stdio.h>
 /**
  * main - Prints out a string to stdout.
- * Return: 0 if success.
+ * Return: 0 if success
  */
 int main(void)
 {
-	puts("with proper grammar, but the outcome is a piece of art,\n");
-        return (0);
+	puts("Programming is like building a multilingual puzzle,\n");
+	return (0);
 }
-
