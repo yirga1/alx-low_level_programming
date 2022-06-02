@@ -1,7 +1,7 @@
 #include <unistd.h>
 /**
- * main - Entry point
- * Return: Always 1 (Success)
+ * main - Prints out a string to stdout.
+ * Return: 1 Always success
  */
 int main(void)
 {
