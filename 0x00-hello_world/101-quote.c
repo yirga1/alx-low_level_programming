@@ -1,8 +1,8 @@
+#include <stdio.h>     
 /**                                                                                            
  * main - error function                                                                                                                                                                   
  * Return: 1                                                                                   
- */                                                                                                                                                                                        
-#include <stdio.h>                                                                                                                                                                           
+ */ 
 int main(void)                                                                                 
 {                                                                                              
         fprintf(stderr, "and that piece of art is useful\" - Dora Korpar, ");                  
