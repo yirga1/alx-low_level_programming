@@ -1,8 +1,8 @@
 #include <stdio.h>     
-/**                                                                                            
- * main - error function                                                                                                                                                                   
- * Return: 1                                                                                   
- */ 
+/**
+ * main - Prints out a string to stdout.
+ * Return: 1 Always success
+ */
 int main(void)                                                                                 
 {                                                                                              
         fprintf(stderr, "and that piece of art is useful\" - Dora Korpar, ");                  
