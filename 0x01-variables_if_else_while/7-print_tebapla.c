@@ -5,12 +5,9 @@
  */
 int main(void)
 {
-char c = 'z';
-while (c >= 'a')
-{
-putchar(c);
-c--;
-}
+char l;
+for (l = 'z'; l >= 'a'; l--)
+putchar(l);
 putchar('\n');
 return (0);
 }
