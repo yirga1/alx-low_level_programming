@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - 0-9
- * Return: 0 
+ * Return: 0
  */
 int main(void)
 {
@@ -13,4 +13,4 @@ n++;
 }
 putchar('\n');
 return (0);
-
+}
