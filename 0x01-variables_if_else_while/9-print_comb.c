@@ -3,6 +3,8 @@
  * main - all combinations of single digits
  * Return: 0 for success
  */
+int main(void)
+{
 int j = '0';
 while (j <= '9')
 {
