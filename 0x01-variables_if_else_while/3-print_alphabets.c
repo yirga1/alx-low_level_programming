@@ -14,7 +14,7 @@ a++;
 }
 while (b <= 'Z')
 {
-putchar(d);
+putchar(b);
 b++;
 }
 putchar('\n');
