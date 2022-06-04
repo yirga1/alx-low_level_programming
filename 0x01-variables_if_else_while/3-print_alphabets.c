@@ -5,11 +5,18 @@
  */
 int main(void)
 {
- char letr;
- for (letr = 'a'; letr <= 'z'; letr++)
- putchar(letr);
- for (letr = 'A'; letr <= 'Z'; letr++)
- putchar(letr);
- putchar('\n');
- return (0);
+char a = 'a';
+char b = 'A';
+while (a <= 'z')
+{
+putchar(c);
+c++;
+}
+while (b <= 'Z')
+{
+putchar(d);
+b++;
+}
+putchar('\n');
+return (0);
 }
