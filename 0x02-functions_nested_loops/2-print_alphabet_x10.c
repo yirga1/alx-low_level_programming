@@ -3,7 +3,7 @@
  * main - Prints ten time alphabet in lowercase.
  * Return: Always 0.
  */
-int print_alphabet_x10(void)
+void print_alphabet_x10(void)
 {
 char c;
 int i;
