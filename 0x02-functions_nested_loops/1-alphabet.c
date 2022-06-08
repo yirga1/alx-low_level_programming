@@ -1,16 +1,14 @@
 #include <stdio.h>
 /**
-* main - causes an infinite loop
+* main - print alphabet
 * Return: 0
 */
-int main(void)
+void print_alphabet(void)
 {
-int i;
-printf("Infinite loop incoming :(\n");
-i = 0;
-while (i < 10) 
-putchar(i);
+char c;
+for (c = 'a'; c <= 'z'; c++)
+{
+_putchar(c);
 }
-printf("Infinite loop avoided! \\o/\n");
-return (0);
+_putchar('\n');
 }
