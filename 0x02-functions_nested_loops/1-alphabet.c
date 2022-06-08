@@ -1,17 +1,19 @@
-#include "main.h"
+#include <stdio.h>
 /**
- * main - print alphabet
- * Return: 0 success
- */
-void print_alphabet(void)
-{
-/*
-* discription: print alphabet lowercase
+* main - causes an infinite loop
+* Return: 0
 */
-char c;
-for (c = 'a'; c <= 'z'; c++)
+int main(void)
 {
-_putchar(c);
-}
-_putchar('\n');
+int i;
+printf("Infinite loop incoming :(\n");
+i = 0;
+/*
+* while (i < 10)
+* 
+* putchar(i);
+* }
+*/
+printf("Infinite loop avoided! \\o/\n");
+return (0);
 }
