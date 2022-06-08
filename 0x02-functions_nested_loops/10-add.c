@@ -1,7 +1,7 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * main - adds two integers and return result.
- *
  * Return: Always 0.
  */
 int add(int a, int b) {
