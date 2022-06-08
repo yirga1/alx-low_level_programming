@@ -6,7 +6,7 @@
 void print_alphabet(void)
 {
 /*
-discription: print alphabet lowercase
+* discription: print alphabet lowercase
 */
 char c;
 for (c = 'a'; c <= 'z'; c++)
