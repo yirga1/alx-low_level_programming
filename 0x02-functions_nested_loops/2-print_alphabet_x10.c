@@ -1,9 +1,12 @@
 #include "main.h"
 /**
- * main - Prints ten time alphabet in lowercase.
+ * main - prints ten time alphabet in lowercase.
+ *
+ * Description: followed by a new line.
+ *
  * Return: Always 0.
  */
-void print_alphabet_x10(void)
+void print_alphabet_x10(void) //Description: followed by a new line.
 {
 char c;
 int i;
