@@ -2,7 +2,6 @@ include "main.h"
 /**
  * main - print alphabet.
  * Return: 0 success.
- * Discription - about printing alphabet.
  */
 void print_alphabet(void)
 {
