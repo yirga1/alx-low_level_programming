@@ -5,9 +5,7 @@ include "main.h"
  */
 void print_alphabet(void)
 {
-/**
- * Discription - about printing alphabet.
- */
+ //Discription - about printing alphabet.
 char ch;
 for (ch = 'a'; ch <= 'z'; ch++)
 {
