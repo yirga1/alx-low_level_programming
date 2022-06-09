@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _abs - absolute value 
+ * _abs - absolute value
  * @n: integer to check
  * Return: n
  */
