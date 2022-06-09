@@ -1,9 +1,5 @@
-<<<<<<< HEAD
-nclude "main.h"
-=======
 #include "main.h"
 
->>>>>>> dc64c262ad6cea340a9b2c17ae8ccbe02e4a814b
 /**
  * largest_number - returns the largest of 3 numbers
  * @a: first integer
@@ -27,10 +23,6 @@ else
 {
 largest = c;
 }
-<<<<<<< HEAD
-eturn (largest);
-=======
 
 return (largest);
->>>>>>> dc64c262ad6cea340a9b2c17ae8ccbe02e4a814b
 }
