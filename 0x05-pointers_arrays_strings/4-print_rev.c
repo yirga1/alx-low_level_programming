@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * prints a string, in reverse, followed by a new line.
+ * prints a string in reverse a new line.
  * @s: a string
  *
  * Return: string in reverse
