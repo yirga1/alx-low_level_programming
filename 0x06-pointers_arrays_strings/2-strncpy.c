@@ -4,7 +4,7 @@
 * _strncpy -> copy purpose
 * @dest: parameter1
 * @src: parameter2
-* n: parameter3
+* @n: parameter3
 * Return: string
 */
 char *_strncpy(char *dest, char *src, int n)
