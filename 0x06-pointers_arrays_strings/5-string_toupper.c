@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-* string_to_upper -> convert string to upper
+* string_toupper -> convert string to upper
 * @x: string parameter
 * Return: string
 */
