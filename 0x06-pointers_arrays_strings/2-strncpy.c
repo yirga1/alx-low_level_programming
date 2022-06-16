@@ -1,6 +1,6 @@
 #include "main.h"
 #include <string.h>
-/*
+/**
 * _strncpy -> copy purpose
 * @dest: parameter1
 * @src: parameter2
