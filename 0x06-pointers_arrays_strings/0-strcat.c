@@ -1,7 +1,7 @@
 #include "main.h"
 
 /*
-* strcat -> function string concatinet
+* strcat -> this is the function strcat
 * @dest: first parameter
 * @src: second parameter
 * Return: a string
