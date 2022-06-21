@@ -2,9 +2,9 @@
 
 /**
 * _memset -> memory set function
-* @s -> string
-* @b -> character
-* @n -> integer
+* @s -> a string
+* @b -> a character
+* @n -> an integer
 * Return: string
 */
 char *_memset(char *s, char b, unsigned int n)
