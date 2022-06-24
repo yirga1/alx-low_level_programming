@@ -1,11 +1,13 @@
 #include "main.h"
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
- * main - program that prints its name, followed by a new line
- * @argc: argument count
- * @argv: argument vector
- * Return: 0
+ *main - prints file name
+ *@argc: argument count
+ *@argv: argument vector
+ *DESCRIPTION: prints file name
+ *Return: Always (0) Success
  */
 
 int main(int argc, char *argv[])
