@@ -1,24 +1,18 @@
-#include "main.h"
+#include "holberton.h"
 #include <stdio.h>
-#include <stdlib.h>
 
 /**
- *main - prints file name
- *@argc: argument count
- *@argv: argument vector
- *DESCRIPTION: prints file name
- *Return: Always (0) Success
+ * main - program that prints its name, followed by a new line
+ * @argc: argument count
+ * @argv: argument vector
+ * Return: 0
  */
 
 int main(int argc, char *argv[])
 {
-	int i;
+	(void)argc;
 
-	i = 0;
-	while (i < argc)
-	{
-		printf("%s\n", argv[0]);
-		i++;
-	}
+	printf("%s\n", argv[0]);
+
 	return (0);
 }
