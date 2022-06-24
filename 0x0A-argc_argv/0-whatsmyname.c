@@ -2,10 +2,9 @@
 #include <stdio.h>
 
 /**
- * main - program that prints its name a new line
+ * main - program that prints its name, followed by a new line
  * @argc: argument count
  * @argv: argument vector
- *
  * Return: 0
  */
 
