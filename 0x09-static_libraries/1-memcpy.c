@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * _memcpy - memory copy 
- * @dest: pointer to char parameter
- * @src: pointer to char parameter
+ * _memcpy - irontnoux2
+ * @dest: pointer to char params
+ * @src: pointer to char params
  * @n: size
  * Return: *dest
  */
