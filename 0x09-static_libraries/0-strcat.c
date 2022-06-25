@@ -2,9 +2,9 @@
 
 /**
  * *_strcat - function commute srtings
- * @dest: parameter pointer to a char
- * @src: parameter pointer to a char
- * Return: value of dest
+ * @dest: param pointer to a char
+ * @src: param pointer to a char
+ * Return: return value of dest
  */
 
 char *_strcat(char *dest, char *src)
