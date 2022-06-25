@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * _memset - memory set
- * @s: pointer to char parameter
+ * _memset - ironnou
+ * @s: pointer to char params
  * @b: data to change
  * @n: index
  * Return: *s
