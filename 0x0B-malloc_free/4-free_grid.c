@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 #include <stdlib.h>
 
 /**
@@ -15,7 +15,7 @@ void free_grid(int **grid, int height)
 
 	while (i < height)
 	{
-		free(grid[j]);
+		free(grid[i]);
 		i++;
 	}
 	free(grid);
