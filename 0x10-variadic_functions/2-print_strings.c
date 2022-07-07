@@ -1,4 +1,3 @@
-#include <stdarg.h>
 #include <stdio.h>
 /**
  * print_strings - prints strings, followed by a new line
@@ -9,12 +8,12 @@
 void print_strings(const char *separator, const unsigned int n, ...)
 {
 	va_list ap;
-	unsigned int a;
+	unsigned int i;
 	char *og;
 
 	va_start(ap, n);
 
-	for (a = 0; a < n; a++)
+	for (i = 0; i < n; i++)
 	{
 		og = (va_arg(ap, char*));
 		if (og != NULL)
