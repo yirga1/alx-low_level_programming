@@ -58,26 +58,26 @@ void print_all(const char * const format, ...)
 		{NULL, NULL}
 	};
 
-	int a = 0, b = 0;
+	int x = 0, y = 0;
 	va_list list;
 	char *sep = "";
 
 	va_start(list, format);
 
-	while (format && format[a])
+	while (format && format[x])
 	{
-		while (types[b].chk)
+		while (types[y].chk)
 		{
-			if (format[a] == *types[b].chk)
+			if (format[x] == *types[y].chk)
 			{
 				printf("%s", sep);
-				types[b].f(list);
+				types[y].f(list);
 				sep = ", ";
 			}
-			b++;
+			y++;
 		}
-		b = 0;
-		a++;
+		y = 0;
+		x++;
 	}
 	printf("\n");
 	va_end(list);
