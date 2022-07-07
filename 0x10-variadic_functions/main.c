@@ -1,17 +1,21 @@
+#ifndef _VARIADIC_FUNCTIONS_H_
+#define _VARIADIC_FUNCTIONS_H_
+#include <stdarg.h>
 #include <stdio.h>
-#include "variadic_functions.h"
-
-/**
- * main - check the code for alx students
- * Return: Always 0.
+/*
+ * struct check - paramenters to check against
+ * @c: type
+ * @f: the function to send it to
  */
-int main(void)
+typedef struct check
 {
-    int sum;
+	char *chk;
+	void (*f)(va_list list);
+} check_t;
 
-    sum = sum_them_all(2, 98, 1024);
-    printf("%d\n", sum);
-    sum = sum_them_all(4, 98, 1024, 402, -1024);
-    printf("%d\n", sum);    
-    return (0);
-}
+int _putchar(char c);
+int sum_them_all(const unsigned int n, ...);
+void print_numbers(const char *separator, const unsigned int n, ...);
+void print_strings(const char *separator, const unsigned int n, ...);
+void print_all(const char * const format, ...);
+#endif
