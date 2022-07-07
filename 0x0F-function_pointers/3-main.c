@@ -28,3 +28,8 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		exit(99);
 	}
+	c = (*p)(a, b);
+
+	printf("%d\n", c);
+	return (0);
+}
