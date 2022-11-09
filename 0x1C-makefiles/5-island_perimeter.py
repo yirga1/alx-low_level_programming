@@ -1,24 +1,31 @@
 #!/usr/bin/python3
-'''Module that holds the function def island_permiter'''
+"""Module that calculates the perimeter of an island in a grid."""
+
+
+def num_water_neighbors(grid, i, j):
+    """Returns the number of water neighbors a cell has in a grid."""
+
+    num = 0
+
+    if i <= 0 or not grid[i - 1][j]:
+        num += 1
+    if j <= 0 or not grid[i][j - 1]:
+        num += 1
+    if j >= len(grid[i]) - 1 or not grid[i][j + 1]:
+        num += 1
+    if i >= len(grid) - 1 or not grid[i + 1][j]:
+        num += 1
+
+    return num
 
 
 def island_perimeter(grid):
-    '''Finds the perimeter of an island'''
+    """Returns the perimeter of the island in grid."""
 
-    if not isinstance(grid, list):
-        return 0
-    p = 0
+    perim = 0
+    for i in range(len(grid)):
+        for j in range(len(grid[i])):
+            if grid[i][j]:
+                perim += num_water_neighbors(grid, i, j)
 
-    for row in range(len(grid)):
-        for col in range(len(grid[row])):
-            if grid[row][col] == 1:
-                p += 4
-                if row > 0 and grid[row - 1][col] == 1:
-                    p -= 1
-                if col > 0 and grid[row][col - 1] == 1:
-                    p -= 1
-                if col < (len(grid[row]) - 1) and grid[row][col + 1] == 1:
-                    p -= 1
-                if row < (len(grid) - 1) and grid[row + 1][col] == 1:
-                    p -= 1
-    return p
+    return perim
